@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Business-Software-Design.github.io/blog</id>
-    <title>BARK Software Blog</title>
+    <title>BARK Cloud Software Platform  Blog</title>
     <updated>2021-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Business-Software-Design.github.io/blog"/>
-    <subtitle>BARK Software Blog</subtitle>
+    <subtitle>BARK Cloud Software Platform  Blog</subtitle>
     <icon>https://Business-Software-Design.github.io/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Greetings!]]></title>
