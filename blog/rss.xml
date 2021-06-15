@@ -4,16 +4,9 @@
         <title>BARK Cloud Software Platform  Blog</title>
         <link>https://Business-Software-Design.github.io/blog</link>
         <description>BARK Cloud Software Platform  Blog</description>
-        <lastBuildDate>Sun, 28 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[Greetings!]]></title>
-            <link>https://Business-Software-Design.github.io/blog/greetings</link>
-            <guid>greetings</guid>
-            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Congratulations, you have made your first post!]]></description>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://Business-Software-Design.github.io/blog/welcome</link>
