@@ -1,0 +1,16 @@
+---
+sidebar_position: 07.01
+---
+
+# Risk management frameworks
+========================
+
+![img](/img/1-7-6-1.png)
+
+
+![img](/img/1-7-6-2.png)
+
+Risk management is a complex topic. And fortunately, organizations don't need to design their own risk management processes from the ground up. Risk management frameworks provide proven, time-tested techniques for performing enterprise risk management. One of the most widely used risk management frameworks was developed by the National Institute of Standards and Technology, a US federal government agency. The NIST process is mandatory for many government computer systems, but private organizations have also widely adopted this approach because they find it helpful. The framework is found in NIST Special Publication 800-37. This document runs over 60 pages and includes great detail on the framework. That's good reading for anyone involved in risk management. The publication is available for free on NIST's website. For our purposes, an overview of the six steps in the process will be more than enough to prepare for the exam. This diagram shows the six steps involved in managing risk according to NIST. Before beginning the process, the organization should gather information in two different categories. The first set of information involves the technology architecture and it includes reference models, technical details, business process information, and information system boundaries. The second input to the process is organization specific information, including the laws, regulations, and policies that apply, the strategy of the organization, its priorities, resource availability, and supply chain information. And after gathering all this information, the organization enter step one of the risk management framework. In this step, it categorizes the information system being assessed as well as the information stored, processed, and transmitted by that system. This is normally done by performing an impact assessment. In step two, the organization selects the security controls that should be used to manage risks to the information system. This is based upon the systems categorization from step one. Now the organization will likely begin with a standard baseline of controls and then add or subtract specific controls to tailor the specification to the system's needs. After selecting the controls, the organization moves to step three where it implements the selected controls. And then in step four, the organization performs a control assessment to determine whether the controls were correctly implemented, operate correctly, and meet security requirements. After this assessment is complete, the organization enter step five where it authorizes operation of the information system. In the federal government, authorization is a very formal process where a senior government official must accept any remaining risks. Once the system is authorized and running, we move to step six of the assessment where the organization monitors the security controls on an ongoing basis to ensure their continued effectiveness and respond to any environmental changes. If this monitoring detects significant issues, the cycle may begin again at step one.
+
+
+

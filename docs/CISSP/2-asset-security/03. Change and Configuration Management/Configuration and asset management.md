@@ -1,0 +1,14 @@
+---
+sidebar_position: 2.0302
+---
+
+# Configuration and asset management
+========================
+
+![img](/img/2-03-02-01.png)
+
+
+
+![img](/img/2-03-02-02.png)
+
+Configuration management tracks the way that specific devices are set up. Configuration management tracks both operating system settings and the inventory of software installed on the device. Baselining is an important component of configuration management. A baseline is a snapshot of a system or application at a given point in time. The baseline may then be used to assess whether a system has changed outside of an approved change management process. System administrators may compare a running system to the baseline, to identify all changes to the system and then compare those changes to approved RFCs. Versioning and version control are also critical components of change management programs. Particularly in the area of software and script development. Versioning assigns each release of a piece of software an incrementing version number that may be used to identify any given copy. These numbers are frequently written as three-part decimals, with the first number representing the major version of the software. The second number representing the major update, and the third number representing minor updates. Apple's iOS uses this scheme along with many other software products. For example, iOS 14, is a major version of the iPhone and iPad operating system. When Apple periodically releases major updates to iOS, they add a second number to the version string, such as iOS 14.1. Then, if they make small updates to iOS 14.1 prior to the release of iOS 14.2, they add a third digit such as iOS 14.1.2. Configuration management should also create artifacts that may be used to help understand system configuration. For example, diagrams often play an important role in helping security professionals understand how a system was designed and configured. These can be crucial when performing time-sensitive, troubleshooting or incident investigations. As you perform configuration management tasks, you should consider standardizing some elements of your configuration. Standard naming conventions for systems and devices, help technologists quickly understand the nature and purpose of a device. And maintaining a standard IP address schema, helps identify a systems location on the network by its IP address. Together, change and configuration management allow technology professionals to track the status of hardware, software and firmware, ensuring that change occurs when desired, but in a controlled fashion that minimizes risk to the organization.

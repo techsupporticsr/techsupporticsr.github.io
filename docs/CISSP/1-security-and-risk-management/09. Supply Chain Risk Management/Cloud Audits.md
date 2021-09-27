@@ -1,0 +1,20 @@
+---
+sidebar_position: 09.05
+---
+
+# Cloud Audits
+========================
+
+![img](/img/1-9-5-1.png)
+
+When conducting audits or assessments of organizations who leverage the cloud, audit professionals run into some unique challenges. 
+
+The use of virtualization and cloud computing raise unique assurance issues. The very fact that an organization is using service providers for the storage, processing, and transmission of some of their data, expands the scope of the audit. 
+
+If the organization is depending upon the security controls of their provider in some way, which is always the case in cloud computing, then that provider's controls are within the scope of the audit. Now, this might lead you to think that auditors would then need to travel to the cloud provider site and verify the controls there, just as they would at the organization's own data centers. 
+
+After all, they do need some assurance that the controls are functioning properly. But just imagine what that would mean. How would you visit the data centers of Microsoft, Amazon, or Google? They're distributed all over the world in different jurisdictions. And even if you knew where they were, they probably wouldn't let you in. Even if you include a clause in your contract granting you the right to audit the controls of a cloud service provider, this isn't a scalable approach. 
+
+If the service provider allowed all customers to perform an annual audit, they would be constantly bombarded by auditors on a daily basis. They wouldn't be able to get any other work done. For this reason, cloud service providers conduct their own audits and provide the results to their customers. These audit reports are known as Service Organization Control, or SOC reports. And we're going to talk about three different categories of SOC reports, SOC 1, 2, and 3 and then two different report types, Type I and Type II. This can be a little confusing, so be sure that you understand the differences before you take the exam. SOC 1 reports are the most common type of SOC audit report. SOC 1 reports are designed to provide customers with the assurance that they need in their service providers when they're conducting their own financial audits. SOC 2 reports are designed to perform more detailed testing and evaluate the service provider's confidentiality, integrity, and availability controls. These reports often contain sensitive information and they are not shared as widely as SOC 1 reports. SOC 3 reports also look at confidentiality, integrity, and availability but they contain only high level information. These reports are designed for public consumption. Now, SOC 1 and 2 reports are further divided into types. And the type of report differs based upon the type of work performed by the auditor. Type I report simply describe the controls that a service provider has in place, and report the auditor's opinion on the suitability of those controls. The auditor does not give an opinion in a Type I report on whether the controls are working effectively. Type II reports contain the same opinions as Type I reports, but they go further and include the results of the auditor actually testing those controls to verify that they're working. Now the last thing that you should know about SOC audits is that they may occur under two different standards. In the United States, the American Institute of Certified Public Accountants publishes the Statement on Standards for Attestation Engagements number 18, or SSAE 18, to guide SOC audits in the US. Internationally, the International Auditing and Assurance Standards Board publishes the International Standard on Assurance Engagements number 3402, or ISAE 3402, for the same purpose. 
+
+These standards are quite similar in scope and purpose, and you won't need to get into the small differences between them on the exam.

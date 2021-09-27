@@ -1,0 +1,10 @@
+---
+sidebar_position: 01.04
+---
+
+# Availability
+========================
+
+![img](/img/1-1-4-1.png)
+
+As a security professional, you must also understand how to apply security controls that protect the availability of information and systems. As the third leg of the CIA triad, availability controls ensure that information and systems remain available to authorized users when needed. These controls protect against disruptions to normal system operation or data availability. Now availability failures may result from a variety of causes. They could result from malicious attackers, such as those conducting a denial of service attack to bring down a website. They can also result from component failures, such as the failure of a hard drive or a power supply. Availability issues may also arise as the result of application failures, such as errors in code that cause a crash or from utility failures, such as a power outage that disrupts systems or a network disruption that prevents internet access. There are many controls that protect the availability of systems and information. One example of an availability control is the use of redundant components, such as including two power supplies in a system or having extra hard drives using RAID technology. Another example is the use of high availability systems that have multiple servers dedicated to the same purpose. So that if one server fails, the others may continue carrying the load. And the more general category of fault tolerance ensures that IT services remain functioning, even when small failures occur. Now there is one additional availability control that you should be familiar with for the exam. Keeping operating systems and applications patched to current levels ensures that any flaws identified by the manufacturer are corrected promptly. This not only protects your system from vulnerabilities that might allow an attacker to gain access, but it also corrects issues that may cause the system to crash, disrupting availability.

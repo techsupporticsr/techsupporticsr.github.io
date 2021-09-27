@@ -1,0 +1,10 @@
+---
+sidebar_position: 03.03
+---
+
+# Software licensing
+========================
+
+![img](/img/1-3-3-1.png)
+
+Software is an important form of intellectual property. Companies invest significant financial and human resources in developing software, and then they protect it through license agreements. Software license agreements describe the terms of use for software that an organization acquires. They contain many different provisions that cover the circumstances of acceptable use. These may include the number and types of individuals who may use the software. The amount of information that may be processed. Locations where data may be processed. The number of servers supporting the software. And whatever other restrictions the software publisher chooses to use. Software license agreements come in many different forms. In some cases, software agreements are detailed contracts that are negotiated between the software vendor and the customer. This is especially true in the case of expensive enterprise software. In these cases, the vendor often proposes a license agreement, and then the customer suggests revisions. And there may be many rounds of negotiation before the two sides agree on mutually acceptable language. Click-through agreements are at the other end of the spectrum. They're take it or leave it agreements where the customer simply clicks an I Agree button as they purchase software or sign up for a service. These agreements can be dangerous because users typically don't read them, and they may be committing their organization to undesirable restrictions. You should also be familiar with the concept of shrink-wrap agreements. These agreements are essentially the same as click-through agreements, but they're included on the physical package of a piece of software, and they take effect when the user breaks the seal on that package. Shrink-wrap agreements are rarely used today simply because most software is now distributed electronically.

@@ -1,0 +1,12 @@
+---
+sidebar_position: 00.01
+---
+
+# Exploring botnets and DDoS threats
+========================
+
+![img](/img/Botnets.png)
+
+While the term botnets may conjure up images of robots taking over the world, like in a sci-fi movie, reality is different. Let's take a look at botnets and DDoS attacks. A botnet is a collection of computers or Internet of Things devices which have been infected by malware, allowing a malicious actor to take remote control of them. Because so many systems can come under one attacker's control, botnets can become a serious force multiplier, allowing an attacker to inflict a lot more damage than they could accomplish on their own. Compromised systems that become part of a botnet are sometimes called zombies because they are no longer able to control their own actions. The terms botnets and distributed denial of service, or DDoS attacks, are related but not the same. Botnets are the actors, DDoS attacks are the actions. A DDoS attack is an attempt to make an online service unavailable by overwhelming it with traffic from many sources. With sometimes thousands of zombie computers at their disposal, attackers often use botnets to send the hundreds of gigabits of bogus traffic to disrupt or completely block the services of targeted websites. Botnet-driven DDoS attacks have been featured in news headlines because of the major impacts they've had on companies, users, and even nation states. The Mirai botnet launched a DDoS attack that significantly impacted Twitter, Netflix, CNN, and even internet access for the entire country of Liberia. Once compromised, botnets can be used for many types of attacks, including DDoS attacks, spam and phishing campaigns, spreading malware, brute force and other cyber attacks, and cryptomining. Botnets have even been used to conduct spying operations, as you can see in this news headline. Practically any traditional cyber attack can be done bigger and faster with a botnet. Botnets have only been a growing problem on the cybersecurity threat landscape. This is because the number of internet connected devices has been growing dramatically. Research firm IHS Markit estimates that the total number of devices connected to the internet will rise from nearly 27 billion in 2017 to 125 billion in 2030. This is why we can expect botnets to continue playing a big role in the cybersecurity threat landscape for some time.
+
+![img](/img/Botnets_v_DDoS.png)

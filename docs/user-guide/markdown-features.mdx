@@ -1,0 +1,219 @@
+---
+sidebar_position: 4
+---
+
+# Markdown Syntax and Features Page
+
+Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+
+<i className="material-icons">videocam</i>
+
+Now, if you want to include the Message component, it's available in all MDX documents!
+
+<Message>MDX gives you JSX in Markdown!</Message>
+
+The Chart is also available since it was passed into the MDXProvider:
+
+<Chart />
+
+Headings start with a hash 1 hash for heading 1, 2 for h2 etc.
+<Highlight color="#ff0000">ONLY H2 & H3 will add link</Highlight> to the RHS nav panel in docusaurus
+
+# Markdown Heading 1
+## Markdown Heading 2
+### Markdown Heading 3
+#### Markdown Heading 4
+##### Markdown Heading 5
+###### Markdown Heading 6
+
+## HyperLinks
+
+Markdown text with [internal link](./docusaurus-getting-started-manual) label in [  ] square brackets and link in ( ) parentheses
+
+Markdown text with [external link](https://www.markdownguide.org/basic-syntax/). to the Markdown syntax site
+
+Here is an external hyperlink to an md doc  [do not put the dotmd in link](http://localhost:3000/docs/user-guide/docusaurus-getting-started-manual).
+
+## Italics
+
+Italicized text is *inside a single asterixes*.
+
+## Bold
+
+Bold text is **inside double asterixes**.  
+
+## Paragraphs 
+
+are simply 'entered down' in code file
+
+Like this, dont put an indent.
+
+## Line Breaks
+
+Line Breaks have two spaces after the first (previous) line.
+
+## images
+images have an ! folowed by alt text in square brackets  [ ] and image link inside parentheses ( ) .  
+![Docusaurus logo](/img/logo.png)
+
+## code sample
+to add a sample code window, use triple ` 
+followed by jsx title= then link in quoatation marks ENTER
+
+then enter code, end it with triple ` again
+
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+    return (
+        <h1>Hello, Docusaurus!</h1>
+    )
+}
+```
+## alerts - green, yellow red
+
+Use Triple colon : followed by tip, danger or caution then Heading words then Enter
+
+for label text
+
+end it with triple colon :
+
+:::tip My tip
+
+Use this awesome feature option
+
+:::
+
+:::danger Take care
+
+This action is dangerous
+
+:::
+
+:::caution Warning
+
+This is a warning
+
+:::
+## MDX and React Components
+
+[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+
+## highlighted text with color and text
+create custom css and onclick functions for spans like the highlights below
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+
+## Front Matter
+
+Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+
+```text title="my-doc.md"
+// highlight-start
+---
+id: my-doc-id
+title: My document title
+description: My document description
+slug: /my-custom-url
+---
+// highlight-end
+
+## Markdown heading
+
+Markdown text with [links](./docusaurus-getting-started-manual.md)
+```
+
+## Links
+
+Regular Markdown links are supported, using url paths or relative file paths.
+
+```md
+Let's see how to [Create a page](/docusaurus-getting-started-manual).
+```
+
+```md
+Let's see how to [Create a page](./docusaurus-getting-started-manual.md).
+```
+
+**Result:** Let's see how to [Create a page](./docusaurus-getting-started-manual.md).
+
+## Images
+
+Regular Markdown images are supported.
+
+Add an image at `static/img/logo.png` and display it in Markdown:
+
+```md
+![Docusaurus logo](/img/logo.png)
+```
+
+![Docusaurus logo](/img/logo.png)
+
+## Code Blocks
+
+Markdown code blocks are supported with Syntax highlighting.
+
+    ```jsx title="src/components/HelloDocusaurus.js"
+    function HelloDocusaurus() {
+        return (
+            <h1>Hello, Docusaurus!</h1>
+        )
+    }
+    ```
+
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+  return <h1>Hello, Docusaurus!</h1>;
+}
+```
+
+## Admonitions
+
+Docusaurus has a special syntax to create admonitions and callouts:
+
+    :::tip My tip
+
+    Use this awesome feature option
+
+    :::
+
+    :::danger Take care
+
+    This action is dangerous
+
+    :::
+
+:::tip My tip
+
+Use this awesome feature option
+
+:::
+
+:::danger Take care
+
+This action is dangerous
+
+:::
+
+
+
+
+
+

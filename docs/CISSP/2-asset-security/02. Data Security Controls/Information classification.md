@@ -1,0 +1,14 @@
+---
+sidebar_position: 2.0206
+---
+
+# Information classification
+========================
+
+![img](/img/2-02-06-01.png)
+
+Organizations use data classification policies to help users understand the security requirements around handling different types of information. Data classification policies describe the security levels of information used in an organization and the process for assigning information to a particular classification level. The different security categories or classifications used by an organization determine the appropriate storage, handling, and access requirements for classified information. Security classifications are assigned based upon both the sensitivity of the information and the criticality of that information to the enterprise. Classification schemes vary, but all basically try to group information into high, medium, and low sensitivity levels and differentiate between public and private information. For example, the military uses the familiar top secret, secret, confidential, and unclassified scheme. A business, on the other hand, might use friendlier terms to accomplish the same goal, such as highly sensitive, sensitive, internal, and public. Data classification is extremely important because it is used as the basis for other data security decisions. For example, a company might require the use of strong encryption to protect sensitive and highly sensitive information, both at rest and in motion. That's an example of a data handling requirement. Data classification also drives decisions regarding asset classification. For example, an organization might designate security classification levels for systems and then only allow systems to process information at their security level or below. This practice is commonly followed in the defense industry where a computer system might be labeled as either unclassified, secret, or top secret. An unclassified system would not then be allowed to handle information that was classified secret. In addition, administrators would assume that any information stored on a system is classified at the highest level authorized for that system. If data is retrieved from a system classified as secret, that information is assumed to be secret unless it undergoes a manual classification review. When an organization classifies information, it should also include labeling requirements that apply consistent markings to sensitive information. Using standard labeling practices ensures that users are able to consistently recognize sensitive information and handle it appropriately. Labels may be applied to both information and assets. Finally, every organization should adopt secure disposal procedures for sensitive information. We've already talked about data clearing, purging and wiping techniques, and how they are extremely important to use because of data remnants issues.
+
+![img](/img/2-02-06-02.png)
+
+![img](/img/2-02-06-03.png)

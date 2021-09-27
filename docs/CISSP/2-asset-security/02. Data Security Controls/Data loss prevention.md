@@ -1,0 +1,25 @@
+---
+sidebar_position: 2.0208
+---
+
+# Data loss prevention
+========================
+
+![img](/img/2-02-08-01.png)
+
+ Organizations handle many different types of sensitive information on a regular basis. 
+
+This includes trade secrets, proprietary business plans health records, and the personal identifying information of employees and customers. 
+
+Unwanted disclosures of this information could lead to very serious security incidents that expose the organization to fines, sanctions and reputational damage. 
+
+Data loss prevention or DLP solutions provide technology that helps an organization enforce information handling policies and procedures to prevent data loss and theft. DLP solutions search systems for stores of sensitive information that might be unsecured. 
+
+And they monitor network traffic for potential attempts to remove sensitive information from the organization. The DLP solution can then act quickly to block the transmission before the damage is done and alert administrators to the attempted breach. DLP systems work in two different environments. Host-Based DLP, uses software agents installed on a single system that search that system for the presence of sensitive information. These searches often turn up social security numbers, credit card numbers, and other sensitive information in the most unlikely places. Detecting the presence of stored sensitive information allows security professionals to take prompt action to either remove that information or secure it with encryption. Taking the time to secure or remove information now may pay handsome rewards down the road if that device is lost, stolen or compromised. Host-based DLP can also monitor system configurations and user actions blocking undesirable actions. For example, some organizations use host-based DLP to stop users from accessing USB based removable media devices that they might use to carry information out of the organization secure environment. Other DLP systems focus on protecting network connections. They monitor outbound network traffic watching for any transmissions that contain unencrypted sensitive information. They can then block those transmissions preventing the unsecure loss of sensitive information. DLP systems may simply block traffic that violates the organization's policy, or in some cases they may automatically apply encryption to the content. This automatic encryption is commonly used with DLP systems that focus on email. DLP systems also have two mechanisms of action. First, they can perform pattern matching, watching for the telltale signs of sensitive information. For example, if they see a number that's formatted like a credit card or social security number they can automatically trigger on that pattern. Similarly, they may contain a database of sensitive terms such as top secret or business confidential and trigger when they see those terms in a document. The second way that DLP systems work is through the use of watermarking, where systems or administrators apply electronic tags to sensitive documents and then the DLP system monitor systems and networks for unencrypted content containing those tags. Let's take a quick look at DLP in action. Here we're looking at a host-based DLP tool called Spirion running on a Windows system. This is a pretty user-friendly tool that scans your system for the presence of sensitive information. Let's go ahead and kick off a scan. The scan is now underway and it might take a few minutes to finish. What's happening right now is that Spirion is scanning every single file on this system's hard drive searching for any sensitive information. In this scan, I've set it to search for social security numbers, credit card numbers, passwords, bank account information and driver's license records. Now the search is completed and I can see that it searched 9,130 files and it found one location containing a match. Let's go ahead and take a look at this in more detail. I can see that there's a file in the documents folder called a roster.CSV and that Spirion believes that it's found social security numbers in that file. As I look at the preview pane here I can see that this does look like a file that might contain social security numbers. And as the administrator I can take whatever action I think is appropriate. I can shred the file which was securely deleted from the system. I can redact the social security numbers from the file or I can encrypt the file to protect it. Now I don't need this file on my system. So I'm going to choose to shred the file. And after looking at the warning that I can never recover this file I go ahead and shred it. And now that file has been securely deleted and there's no more sensitive information that Spirion has detected on my system. DLP systems may also operate as cloud-based managed security services. The service provider operates a DLP system that customers access in the cloud. 
+
+This service delivery model relieves customers of the burden of operating and maintaining the DLP system themselves.
+
+![img](/img/2-02-08-02.png)
+
+
+![img](/img/2-02-08-03.png)

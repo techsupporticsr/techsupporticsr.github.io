@@ -1,0 +1,167 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #0094d9;
+    --ifm-color-primary-dark: #0085c3;
+    --ifm-color-primary-darker: #007eb8;
+    --ifm-color-primary-darkest: #006898;
+    --ifm-color-primary-light: #00a3ef;
+    --ifm-color-primary-lighter: #00aafa;
+    --ifm-color-primary-lightest: #1bb7ff;
+    --ifm-color-secondary: #ebedf0;
+    --ifm-color-secondary-dark: rgb(212, 213, 216);
+    --ifm-color-secondary-darker: rgb(200, 201, 204);
+    --ifm-color-secondary-darkest: rgb(164, 166, 168);
+    --ifm-color-secondary-light: rgb(238, 240, 242);
+    --ifm-color-secondary-lighter: rgb(241, 242, 245);
+    --ifm-color-secondary-lightest: rgb(245, 246, 248);
+    --ifm-color-success: #00a400;
+    --ifm-color-success-dark: rgb(0, 148, 0);
+    --ifm-color-success-darker: rgb(0, 139, 0);
+    --ifm-color-success-darkest: rgb(0, 115, 0);
+    --ifm-color-success-light: rgb(38, 178, 38);
+    --ifm-color-success-lighter: rgb(77, 191, 77);
+    --ifm-color-success-lightest: rgb(128, 210, 128);
+    --ifm-color-info: #54c7ec;
+    --ifm-color-info-dark: rgb(76, 179, 212);
+    --ifm-color-info-darker: rgb(71, 169, 201);
+    --ifm-color-info-darkest: rgb(59, 139, 165);
+    --ifm-color-info-light: rgb(110, 207, 239);
+    --ifm-color-info-lighter: rgb(135, 216, 242);
+    --ifm-color-info-lightest: rgb(170, 227, 246);
+    --ifm-color-warning: #ffba00;
+    --ifm-color-warning-dark: rgb(230, 167, 0);
+    --ifm-color-warning-darker: rgb(217, 158, 0);
+    --ifm-color-warning-darkest: rgb(179, 130, 0);
+    --ifm-color-warning-light: rgb(255, 196, 38);
+    --ifm-color-warning-lighter: rgb(255, 207, 77);
+    --ifm-color-warning-lightest: rgb(255, 221, 128);
+    --ifm-color-danger: #fa383e;
+    --ifm-color-danger-dark: rgb(225, 50, 56);
+    --ifm-color-danger-darker: rgb(213, 48, 53);
+    --ifm-color-danger-darkest: rgb(175, 39, 43);
+    --ifm-color-danger-light: rgb(251, 86, 91);
+    --ifm-color-danger-lighter: rgb(251, 116, 120);
+    --ifm-color-danger-lightest: rgb(253, 156, 159);
+    --ifm-color-white: #fff;
+    --ifm-color-black: #000;
+    --ifm-color-gray-0: var(--ifm-color-white);
+    --ifm-color-gray-100: #f5f6f7;
+    --ifm-color-gray-200: #ebedf0;
+    --ifm-color-gray-300: #dadde1;
+    --ifm-color-gray-400: #ccd0d5;
+    --ifm-color-gray-500: #bec3c9;
+    --ifm-color-gray-600: #8d949e;
+    --ifm-color-gray-700: #606770;
+    --ifm-color-gray-800: #444950;
+    --ifm-color-gray-900: #1c1e21;
+    --ifm-color-gray-1000: var(--ifm-color-black);
+    --ifm-color-emphasis-0: var(--ifm-color-gray-0);
+    --ifm-color-emphasis-100: var(--ifm-color-gray-100);
+    --ifm-color-emphasis-200: var(--ifm-color-gray-200);
+    --ifm-color-emphasis-300: var(--ifm-color-gray-300);
+    --ifm-color-emphasis-400: var(--ifm-color-gray-400);
+    --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+    --ifm-color-emphasis-600: var(--ifm-color-gray-600);
+    --ifm-color-emphasis-700: var(--ifm-color-gray-700);
+    --ifm-color-emphasis-800: var(--ifm-color-gray-800);
+    --ifm-color-emphasis-900: var(--ifm-color-gray-900);
+    --ifm-color-emphasis-1000: var(--ifm-color-gray-1000);
+    --ifm-code-font-size: 135%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    --ifm-font-family-monospace: Roboto Mono, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --ifm-background-color: transparent; /* Body's background. */
+    --ifm-color-content: var(--ifm-color-emphasis-900);
+    --ifm-color-content-inverse: var(--ifm-color-emphasis-100);
+    /* Typography. */
+    --ifm-font-color-base: var(--ifm-color-content);
+    --ifm-font-color-base-inverse: var(--ifm-color-content-inverse);
+    --ifm-font-color-secondary: var(--ifm-color-content-secondary);
+    --ifm-font-family-base: Roboto, Arial, Helvetica, sans-serif;
+    --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --ifm-font-size-base: 120%;
+    --ifm-font-weight-light: 200;
+    --ifm-font-weight-normal: 300;
+    --ifm-font-weight-semibold: 500;
+    --ifm-font-weight-bold: 700;
+    --ifm-font-weight-base: var(--ifm-font-weight-normal);
+    --ifm-line-height-base: 1.75;
+    /* Spacing. */
+    --ifm-global-spacing: 1.2rem;
+    --ifm-spacing-vertical: var(--ifm-global-spacing);
+    --ifm-spacing-horizontal: var(--ifm-global-spacing);
+    --ifm-navbar-background-color: var(#414052);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+blockquote {
+    border-left-color: var(--ifm-color-primary);
+    border-left-color: #00bfff;
+    background-color: #f7f7f7;
+    font-size: larger;
+    font-weight:700;
+    font-family: 'Caveat','Pacifico','Bradley Hand ITC','Comic Sans MS';
+}
+header {
+    color: #99ebff
+}
+.table-of-contents {
+    font-size: 0.8rem;
+    font-family: Roboto Condensed, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-stretch: extra-condensed;
+    margin-bottom: 0;
+    padding: var(--ifm-toc-padding-vertical) 0;
+}
+details {
+    color: #666666
+}
+.navbar--fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: var(--ifm-z-index-fixed);
+    background-color: #414052
+}
+.navbar__link {
+    color:gainsboro
+}
+.navbar__brand {
+    color: gainsboro;
+    vertical-align: bottom;
+}
+
+.col.col--3:hover {
+    background: var(--ifm-color-gray-300);
+    cursor: pointer;
+    padding: -5px -5px -5px -5px;
+    color: #414052
+}
+.material-icons {
+    font-size: xx-large !important;
+    vertical-align: middle;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.color {
+    color: var(--ifm-color-primary);
+}
+.DocSearch-Logo {
+  /* display:none;*/
+}
+img[brand] {
+    max-width: 200px;
+}

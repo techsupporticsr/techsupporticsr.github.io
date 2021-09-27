@@ -1,0 +1,10 @@
+---
+sidebar_position: 09.03
+---
+
+# Vendor information management
+========================
+
+![img](/img/1-9-3-1.png)
+
+As organizations increasingly use vendors for services that include the storage, processing and transmission of sensitive information, they must pay careful attention to the vendor's information management practices. Data ownership issues often arise in supplier relationships particularly when the vendor is creating information on behalf of the customer. Agreements put in place prior to beginning a new vendor relationship should contain clear language around data ownership. In most cases, a customer will want to ensure that the customer retains uninhibited ownership of the information and that the vendor's right to use the information is carefully limited to activity performed on behalf of and with the knowledge and consent of the customer. In addition customers should ensure that the contract includes language that requires that the vendor securely delete all customer information within an acceptable period of time after the relationship ends. One particular area of concern is data sharing. Customers should include language in vendor agreements that prohibit the vendor from sharing customer information with third parties without the explicit consent of the customer. Finally, the customer should include data protection requirements in the contract. This is particularly important if the vendor will be the sole custodian of critical information belonging to the customer. The contract should specify that the vendor is responsible for preserving the information and implementing appropriate fault tolerance and backup procedures to prevent data loss. In cases where the information is especially critical, the agreement may even include provisions that specify the exact controls that the vendor must put in place to protect information.

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Personnel security",
+      "appliesTo": "docs/CISSP/1-security-and-risk-management/06. Personnel Security/Personnel security.md",
+      "type": "launch"
+    }
+  ]
+}
